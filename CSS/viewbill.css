@@ -1,0 +1,417 @@
+body {
+	margin: 0px;
+	padding: 0;
+	text-align: left;
+	font: 12px Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #061C37;
+	background: #FFFFFF;
+	background-image:url(../Images/image4.jpg);
+	background-repeat: repeat-x;
+	
+}
+*
+{
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	text-align: left;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: medium;
+}
+ 
+ #Logout{
+	float: right;
+	font: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 11px;
+	padding-right: 15px;
+}
+
+#container
+{
+	display: block;
+	height: auto;
+	position: relative;
+	width:1340px;
+	margin-left: -1px;
+	margin-right: -1px;
+}
+
+#mainpic h1
+{
+	position: absolute;
+	text-align: right;
+	color: #F8FDEE;
+	font-size: 30px;
+	color: #FFF;
+	left: 31px;
+	top: 4px;
+	margin-left: 70px;
+	
+}
+
+
+#mainpic h2
+{
+	position: absolute;
+	text-align: right;
+	color: #E1E7F7;
+	left: 32px;
+	top: 36px;
+	font-weight: bold;
+	font-size: large;
+	margin-left: 70px;
+}
+
+#mainpic
+{
+	background-image: url(../Images/leccy.jpg);
+	background-repeat: no-repeat;
+	width: 1340px;
+	height: 360px;
+	border: 3px solid;
+}
+
+.off
+{
+color:#3A6028;
+	
+}
+
+#footer
+{
+	width: inherit;
+	height: auto;
+	margin-top: 30px;
+	margin-left: 15px;
+	color: #000000;
+	margin-bottom: 3px;
+	font-size: small;
+}
+
+#footer h3 a,#footer h3 a:visited
+{
+display:inline;
+text-align:center;
+font-size:12px;
+text-decoration:none;
+color:#7198E1;
+}
+
+
+#menu ul {
+	list-style: none;
+	padding: 0px;
+	margin-left:auto;
+	width:900px;
+}
+
+#menu li {
+	list-style: none;
+	padding: 0px;	
+	display: inline; 
+	
+}
+
+#menu a {
+	float: left;
+	width: 150px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding-top: 17px;
+	font-size: 15px;
+}
+
+#menu a:hover{
+	color:#BEE399;
+}
+
+
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+#mainpic h1 .off {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-weight: bold;
+	color: #D10F12;
+	font-size: 35px;
+}	
+
+	
+#footimage{
+	width: 1343px;
+	height: 60px;
+	border: 3px solid #952c43;
+	margin-right: 20px;
+	margin-top: -3px;
+	}
+#container #content #footer {
+	margin-top: 5px;
+}
+#container #content #footimage {
+	margin-top: 15px;
+	border-top-color: #F82A2D;
+}
+#container #content #para {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-weight: bold;
+	font-size: x-large;
+}
+#content #para h1 {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-weight: bold;
+	font-size: x-large;
+}
+
+#mainpic #Logout #logoutButton {
+	margin-top: 5px;
+	width: 90px;
+	background-color: #952c43;
+	margin-top: 5px;
+	font-weight: lighter;
+	font-size: 16px;
+	font-style: normal;
+	text-shadow: 1px 0px;
+	height: 30px;
+	color: #FFFFFF;
+	border-style: solid outset outset;
+	text-align: center;
+	border-color: #ffff
+}
+
+#content
+{
+width:1100px;
+background-image:url(../Images/9.jpg);
+border: 3px solid #952c43;
+padding-left:10px;
+padding-right:10px;
+padding-bottom:5px;
+	
+}
+
+
+#container .main {
+	border: 1px;
+	
+}
+
+#bill-form label {
+	margin-top: 10px;
+}
+#bill-form input {
+	width: 788px;
+	
+}
+#bill-form label {
+	margin-top: 20px;
+	padding-top: 10px;
+	width: 200px;
+}
+
+.main #bill-form #create {
+	margin-top: -30px;
+	font-weight: bold;
+	
+	width: auto;
+	text-align: left;
+	margin-left:30px;
+}
+
+#bill-form #create h3 {
+	font-size: x-large;
+	font-weight: bold;
+}
+.accountTopicGray {
+	color:#545353;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	font-weight:bold;
+	
+	line-height:30px;
+	}
+	
+.accountTopicRed {
+	color:#b00202;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	font-weight:bold;
+	
+	
+	line-height:30px;
+	}
+#footimage ul {
+	list-style: none;
+	padding: 0px;
+	margin-left:auto;
+	width:900px;
+}
+#footimage li {
+	list-style: none;
+	padding: 0px;	
+	display: inline; 
+	
+}
+#footimage a {
+	float: left;
+	width: 200px;
+	height: 35px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	padding-top: 17px;
+	font-size: 15px;
+	margin-top: -10px;
+	margin-right: 60px;
+}
+
+
+
+ul .bottomlayer1 a {
+	background-image: url(../Images/power.png);
+	width: 200px;
+	height: 25px;
+}
+ul .bottomlayer2 a {
+	background-image: url(../Images/LECO.jpg);
+}
+ul .bottomlayer3 a {
+	background-image: url(../Images/ltl.jpg);
+}
+
+#container #footer h3 {
+	font-size: large;
+	color:#952c43 ;
+}
+
+#bill-form  #calculate {
+	width: 140px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #952c43;
+	height: 30px;
+	color: #FFFFFF;
+	border-color: #952c43;
+	text-align: center;
+	margin-left: 200px;
+}
+
+#bill-form #date input {
+	width: 150px;
+	margin-left: 90px;
+	margin-top: 0px;
+	height: 25px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+}
+ #bill-form #NoUnits {
+	width: 150px;
+	margin-left: 51px;
+	margin-top: 20px;
+}
+#bill-form #NoUnits input {
+	width: 150px;
+	margin-left: 30px;
+	margin-top: -19px;
+	height: 20px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 13px;
+	font-style: normal;
+}
+
+
+.main #bill-form #RentalCost{
+	width: 200px;
+	margin-left: 50px;
+	margin-top: -20px;
+	
+	
+}
+
+.main #bill-form #UsageCharges{
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 10px;
+	
+	
+}
+
+
+.main #bill-form #Arrears{
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 10px;
+	
+	
+}
+.main #bill-form #OtherCharges{
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 10px;
+
+	
+	
+}
+.main #bill-form #TotalCost{
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-bottom: 50px;
+	
+	
+	
+}
+
+.box{
+width: 150px;
+	margin-left: 30px;
+	margin-top: -19px;
+	height: 20px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 13px;
+	font-style: normal;}
+.main div {
+	margin-top: 10px;
+	border-top-color: #952c43;
+}
+.main #bill-form #Back {
+	width: 140px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #952c43;
+	height: 30px;
+	color: #FFFFFF;
+	border-color: #952c43;
+	text-align: center;
+	margin-left: 200px;
+	margin-bottom:10px;
+}
+.main #bill-form #Clear {
+	width: 140px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-radius: 5px;
+	background-color: #952c43;
+	height: 30px;
+	color: #FFFFFF;
+	border-color: #952c43;
+	text-align: center;
+	margin-left: 50px;
+	margin-bottom: 10px;
+}

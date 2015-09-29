@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin :0 ; padding :0}
+
+body{
+	background-image: url(image1.jpg);
+	width:1000px;
+	margin-top:0px;
+	margin-left:0px;
+	margin-right:0px;
+	height:840px;
+	
+	
+}
+
+#header{
+	background-image:url(header.jpg);
+	height: 187px;
+	position:fixed;
+	width:100%;
+}
+
+.container{
+	width: 960px;
+	height: 100px;
+	margin: 0 auto;
+
+}
+
+#LogoArea{
+	background-image: url(logo.png);
+	width: 200px;
+	height: 120px;
+	float: left;
+	margin-left: 580px;
+	margin-top: 20px;
+	position:fixed;
+}
+
+#Logo2Area{
+	background-image: url(ceb_logo.png);
+	width: 218px;
+	height: 110px;
+	margin-top: 50px;
+	margin-left: 875px;
+	position:fixed;
+}
+
+
+#navArea{
+	height: 100px;
+	float : right;
+	margin-top: 252px;	
+}
+
+#nav{
+	list-style: none;
+	float: left;
+	margin-top: -100px;
+	left: auto;
+	
+	
+}
+#nav a{
+	color:white;
+	text-decoration: none;
+}
+#nav li{
+	float: left;
+	margin-left: 60px;
+	padding: 4px;
+	display: block;
+	font
+; 		font-size: x-large;
+}
+
+#nav a:hover{
+	color:#444851;
+}
+
+#mainpic #slideshow {
+	width: 900px;
+	height: 300px;
+	margin-top: 60px;
+}	
+	

@@ -1,0 +1,46 @@
+#image2{
+	background-image: url(../Images/capture4.jpg);
+	float: right;
+	width: 213px;
+	height: 230px;
+	margin-left: 0px;
+	padding-right: 0px;
+	left: 0px;
+	margin-right: 100px;
+	margin-top: 10px;
+	}
+	
+#container #content {
+	height: 600px;
+	text-align: justify;
+}
+
+#container #content #para {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-weight: bold;
+	font-size: x-large;
+}
+#content #para h1 {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-weight: bold;
+	font-size: x-large;
+}
+#container #content #image2 {
+	margin-top: -200px;
+	margin-left: 0px;
+	margin-right: 00px;
+}
+
+
+#content #include {
+	margin-left: 40px;
+	margin-right: 10px;
+	width: 780px;
+	text-align: justify;
+	list-style-position: inside;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#content #footer h3 {
+	font-size: large;
+	color: #F51115;
+}
