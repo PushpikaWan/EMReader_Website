@@ -11,7 +11,8 @@ body {
 	font-size: 13px;
 	color: #061C37;
 	
-	background-image: url(../Images/image4.jpg);
+	
+	background-color : #fffff;
 	background-repeat:repeat-x;
 	-webkit-box-shadow: 0px 0px 50px;
 	box-shadow: 0px 0px 50px;
@@ -20,7 +21,7 @@ body {
 {
 	margin: 0 auto 0 auto;
 	text-align: left;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-style: normal;
 	font-weight: normal;
 	font-size: medium;
@@ -28,7 +29,7 @@ body {
  
  #Login{
 	float: right;
-	font: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-size: 11px;
 	padding-right: 15px;
 }
@@ -53,12 +54,12 @@ body {
 	position: absolute;
 	text-align: right;
 	color: #F8FDEE;
-	font-size: 30px;
+	font-size: 35px;
 	color: #FFF;
 	left: 36px;
 	top: 4px;
 	margin-left: 70px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-weight: bold;
 	
 }
@@ -74,7 +75,7 @@ body {
 	font-weight: bold;
 	font-size: large;
 	margin-left: 70px;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 }
 
 #mainpic
@@ -100,7 +101,7 @@ color:#3A6028;
 	float: left;
 	clear: both;
 	background-color: #952c43;
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 }
 
 #content
@@ -140,7 +141,7 @@ color:#7198E1;
 	list-style: none;
 	padding: 0px;
 	display: inline;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	width: 200px;
 	
 }
@@ -160,7 +161,7 @@ color:#7198E1;
 
 #menu a:hover{
 	color: #9BA3FB;
-	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	width: 150px;
 }
 
@@ -173,7 +174,7 @@ p {
 }
 
 #mainpic h1 .off {
-	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-weight: bold;
 	color: #D10F12;
 	font-size: 35px;
@@ -276,4 +277,23 @@ ul .bottomlayer3 a {
 	width: 1340px;
 	height: 350px;
 	margin-top: 60px;
+}
+#reg-form #meterid #inputs {
+	width: 200px;
+	height: 20px;
+	margin-top: 5px;
+	margin-left: 112px;
+}
+#reg-form #meterid .inputs {
+	width: auto;
+	height: auto;
+	margin-left: 160px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	margin-top: -10px;
+	margin-right: 160px;
+}
+.main #reg-form #meterid {
+	height: auto;
+	width: auto;
+	margin-top: -15px;
 }

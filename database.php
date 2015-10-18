@@ -19,7 +19,7 @@ class MySQLDatabase {
 		if (!$this->connection) {
 			die("Database connection failed: " . mysqli_error());
 		} else {
-			$db_select = mysqli_select_db($this->connection, "user");
+			$db_select = mysqli_select_db($this->connection, DB_NAME);
 			if (!$db_select) {
 				die("Database selection failed: " . mysqli_error());
 			}

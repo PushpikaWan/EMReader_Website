@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin-top: 0;
+	padding: 0;
+	text-align: left;
+	font: 12px Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	background-color:#FFFFFF;
+	background-image:url(../Images/image4.jpg);
+}
+*
+{
+	margin: 0 auto 0 auto;
+	text-align: left;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-style: normal;
+	font-weight: bold;
+	font-size: small;
+	height: 100px;
+}
+
+#Sign_Out{
+	float: right;
+	font: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-size: 11px;
+	padding-right: 15px;
+}
+
+#mainpic #Sign_Out input {
+	width: 80px;
+	height: 13px;
+} 
+ 
+ #mainpic #Sign_Out #signoutButton {
+	margin-top: 5px;
+	width: 90px;
+	background-color: #952c43;
+	margin-top: 5px;
+	font-weight: lighter;
+	font-size: 16px;
+	font-style: normal;
+	text-shadow: 1px 0px;
+	height: 30px;
+	color: #FFFFFF;
+	border-style: solid outset outset;
+	text-align: center;
+	border-color: #ffff;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+ }
+ 
+#container
+{
+  display: block; 
+  height:auto;
+  position: relative; 
+  width: 1340px;
+  margin-left: -1px;
+  margin-right: -1px;
+}
+
+#mainpic h1
+{
+	position: absolute;
+	text-align: right;
+	color: #F8FDEE;
+	font-size: 30px;
+	color: #A79F9F;
+	left: 60px;
+	top: 20px;
+	margin-left: 70px;
+	
+}
+
+
+#mainpic h2
+{
+	position: absolute;
+	text-align: right;
+	color: #7994DC;
+	left: 60px;
+	top: 50px;
+	font-weight: bold;
+	font-size: large;
+	margin-left: 70px;
+}
+
+#mainpic
+{
+	background-image: url(../Images/admin.jpg);
+	background-repeat: no-repeat;
+	width: 1340px;
+	height: 354px;
+	border: 5px solid #952c43;
+	margin-top: 0px;
+}
+
+.off
+{
+color:#3A6028;
+	
+}
+
+
+
+#content
+{
+	width: 1100px;
+	background-color: #FFF;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	height: 390px;
+	
+}
+
+#footer
+{
+	width: inherit;
+	height: 20px;
+	margin-left: 5px;
+	margin-top: 30px;
+	
+}
+
+#footer h3 a,#footer h3 a:visited
+{
+display:inline;
+text-align:center;
+font-size:12px;
+text-decoration:none;
+color:#7198E1;
+}
+
+html, body {
+text-align: center;
+}
+p {text-align: left;}
+
+#mainpic h1 .off {
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-weight: bold;
+	color: #D10F12;
+	font-size: 35px;
+}
+
+#mainpic #Login input {
+	width: 80px;
+	height: 13px;
+}
+#menu ul {
+	list-style: none;
+	padding: 0px;
+	margin-left:auto;
+	width:900px;
+}
+
+#menu li {
+	list-style: none;
+	padding: 0px;	
+	display: inline; 
+	
+}
+
+#menu a {
+	float: left;
+	width: 150px;
+	height: 40px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	font-weight: bold;
+	padding-top: 17px;
+	font-size: 15px;
+}
+	
+#footimage{
+	width: 1343px;
+	height: 70px;
+	border: 3px solid #952c43;
+	margin-top: 35px;
+	margin-left: 1px;
+
+	}
+#container #content #footer {
+	margin-top: 5px;
+}
+#container #content #footimage {
+	margin-top: 15px;
+	border-top-color: #F82A2D;
+}
+#container #content #para {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-weight: bold;
+	font-size: x-large;
+}
+#content #para h1 {
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+	font-weight: bold;
+	font-size: x-large;
+}
+#container #content #image2 {
+	margin-top: -200px;
+	margin-left: 0px;
+	margin-right: 100px;
+}
+
+
+#footimage ul {
+	list-style: none;
+	padding: 0px;
+	margin-left:auto;
+	width:908px;
+}
+#footimage li {
+	list-style: none;
+	padding: 0px;	
+	display: inline; 
+	
+}
+#footimage a {
+	float: left;
+	width: 200px;
+	height: 35px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	font-weight: bold;
+	padding-top: 17px;
+	font-size: 15px;
+	margin-top: 5px;
+	margin-right: 20px;
+}
+
+
+
+ul .bottomlayer1 a {
+	background-image: url(../Images/power.png);
+	width: 200px;
+	height: 25px;
+}
+ul .bottomlayer2 a {
+	background-image: url(../Images/LECO.jpg);
+}
+ul .bottomlayer3 a {
+	background-image: url(../Images/ltl.jpg);
+}
+#content #footer h3 {
+	font-size: large;
+	color: #F51115;
+}
+#content #welcome {
+	color: #F7282C;
+	font-style: normal;
+	font-weight: bold;
+	width: auto;
+	height: 50px;
+	margin-top: 10px;
+	font-size: x-large;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+}
+
+div.img {
+    margin: 10px;
+    padding:5px;
+    border: 1px solid #ffffff;
+    height: 150px;
+    width: 150px;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #ffffff;
+}
+
+div.desc {
+    text-align: center;
+    width: 120px;
+    margin: 5px;
+}
+
+#content #footer h3 {
+	font-size: large;
+	color: #F51115;
+}
+
+tr td .bill {
+}

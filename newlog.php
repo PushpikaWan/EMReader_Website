@@ -31,7 +31,7 @@ include('logincheck.php');
 
     <form class="login" action="" method="post">
 		<h1>Login</h1>
-			<input type="text" name="username" class="login-input" placeholder="Username">
+			<input type="text" name="Email_address" class="login-input" placeholder="Email address">
 			<input type="password" name="password" class="login-input" placeholder="Password">
 			<button type="submit" name="submit" value="Login" class="login-submit">Login</button>
             <span><?php echo $error; ?></span>

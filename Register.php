@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 
 <html>
@@ -6,6 +7,9 @@
 <link href="CSS/register.css" rel="stylesheet" type="text/css" />
 <link href="CSS/common.css" rel="stylesheet" type="text/css" />
 <title>Register</title>
+<script src="javascript/jquery-1.11.3.min.js"></script>
+<script src="javascript/jquery-2.1.4.min.js"></script>
+<script src="javascript/jquery-1.10.1.min.js"></script>
 <script type="text/javascript">
 	var image1 = new Image()
 	image1.src = "Images/1.jpg"
@@ -20,6 +24,8 @@
 	var image6 = new Image()
 	image6.src = "Images/6.jpg"
 </script>
+
+
 </head>
 
 <body>
@@ -102,42 +108,78 @@
             <div id ="meters"><br/><label for="No of Meters">No of Meters</label>
 				<tr>
  					<td>
-						<select name="no_meters" id="no_meters" style="margin-left:69px;width: 80px;">
-						<option value="1">1</option>
-						<option value="2">2</option>	
-						<option value="3">3</option>
- 						<option value="4">4</option>
-                       
+						<select name="no_meters" id="no_meters" class ="no_meters" style="margin-left: 69px; width: 80px; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', serif;" onChange="buildInputs(this);">
+						<option value="0">Select</option>
+						<option value="1" name="inp1" id="inp1">1</option>
+						<option value="2" name="inp2" id="inp2">2</option>	
+						<option value="3" name="inp3" id="inp3">3</option>
+ 						<option value="4" name="inp4" id="inp4">4</option>
+						<option value="5" name="inp5" id="inp5">5</option>
 						</select>
 					</td>
 				</tr>
- 
+				
 
             </div>
+			
+			
+			<script>
+			
+			
+				$(document).ready(function () {
+				// set onchange event for the select box.
+					$('#no_meters').change(function () {
+				// clear any inputs added to the div.
+						$('.inputs').empty();
+				// get number of inputs to add from select box.
+						var num = $('#no_meters option:selected').text();
+				// build the inputs.
+						for (var i = 1; i <= num; i++) {
+							var meter_id ="inp"+i;
+							//$('<input type="text" name="'+meter_id+'"placeholder="'+meter_id+'"/><br/>').appendTo('.inputs');
+							$('<input type="text" id="'+meter_id+'" name="'+meter_id+'" style="height:20px; width: 300px;margin-left:3px; margin-top: 2px; font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif; font-size: 10px;  " required="required" placeholder="Enter meter-ID" /><br/>').appendTo('.inputs');
+						}
+					})
+				});
+				
+				
+			</script>
+			
+			
+			
             
-            <div id ="meterid"><br/><label for="Meter id">Meter ID</label>
-				<input type="text" name="Meterid" id="Meterid"   required="required" ><br/>
-				<label id="commentUserNamePrompt" style="font-size:15px; margin-left:10px; "></label>
-                <input type="text" name="Meterid" id="Meterid2"   required="required" ><br/>
-                <input type="text" name="Meterid" id="Meterid3"   required="required" >
-                <input type="text" name="Meterid" id="Meterid4"   required="required" >
+            <div id ="meterid" name ="meterid" ><br/><label for="Meter id">Meter ID</label>
+				
+				<div class="inputs" name="inputs" ></div>
+                
             </div>
            
-            
+		   
+		    <script>
+			$('#password, #ConfirmPassword').on('keyup', function () {
+    if ($('#password').val() == $('#ConfirmPassword').val()) {
+        $('#message').text('Matching').css('color', 'green');
+    } else 
+        $('#message').text('Not Matching').css('color', 'red');
+});
+					
+			</script>
+			
             <div id ="password"><br/><label for="password">Password</label>
-				<input type="password" name="password" id="password" placeholder="Password should be 5-10 characters" onkeyup="return passwordVal()"  required="required">
+				<input type="password" name="password" id="password" placeholder="Password should be 5-10 characters"  required="required"/>
 				<label id="commentPasswordPrompt" style="font-size:15px; margin-left:10px; "></label>
 				
             </div>
             
             <div id = "conpassword"><br/><label for="Confirm Password">Confirm Password</label>
-				<input type="password" name="ConfirmPassword" id="ConfirmPassword">
+				<input type="password" name="ConfirmPassword" id="ConfirmPassword"/>
+				 
             </div>
-            
+           <span id="message"></span>
 					
             <div>
               <label></label><br/><br/>
-					<input  type="submit" value="Create Account"  id="adddetails" class="button" onsubmit="fnameVal();"/>
+					<input  type="submit" value="Create Account"  id="adddetails" class="button" />
 					 <input id="clear"type="reset" value="Clear" >
             </div>
 			

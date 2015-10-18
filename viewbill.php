@@ -58,7 +58,7 @@
 		   <div>
 		
               
-					<input  type="submit" value="Calculate"  id="calculate" class="button" >
+					<input  type="submit" action ="billCalculation.php" value="Calculate"  id="calculate" class="button" >
 					 
             </div>
 			<br/>
